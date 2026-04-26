@@ -1,7 +1,8 @@
 my own custom lib bruh
+simply require "moslib" (.luau) and then do what you wish.
 
 
---- Table --- (moclib.tbl)
+--- Table --- (moslib.tbl)
 .deepCopy(table:Table)
     Returns an exact copy of the given table
 
