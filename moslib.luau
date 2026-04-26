@@ -1,11 +1,11 @@
-local mosl = {}
+local moslib = {}
 
-for _, module in pairs(script.Parent["moclib-f"].src:GetChildren()) do
+for _, module in pairs(script.Parent.src:GetChildren()) do
 	if module.Name == "table" then
-		mosl.tbl = require(module)
+		moslib.tbl = require(module)
 	else
-		mosl[module.Name] = require(module)
+		moslib[module.Name] = require(module)
 	end
 end
 
-return mosl
+return moslib
