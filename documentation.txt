@@ -1,0 +1,9 @@
+my own custom lib bruh
+
+
+--- Table --- (moclib.tbl)
+.deepCopy(table:Table)
+    Returns an exact copy of the given table
+
+.count(table:Table)
+    Return the amount of Entrys in the given table, does not count anything nested
